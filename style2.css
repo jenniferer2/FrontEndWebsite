@@ -1,3 +1,26 @@
+body {
+  margin: 0px; 
+  height: 1000px;
+  background-color: green;
+
+}
+h1 {
+  padding: 20px; 
+  margin-left: 500px;
+  margin-right: 500px;
+  color: white;
+  font-size: 60px;
+  text-align: center; 
+  border-style: solid;
+  border-color: rgb(152, 255, 203); 
+  border: 5px solid #84d8db;
+  border-radius: 25px;
+}
+p {
+  text-align: center; 
+  font-size: 20px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,4 +44,8 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: rgb(162, 198, 240);
+  }
+  .footer {
+    font-size:18px;
+    text-align: center; 
   }

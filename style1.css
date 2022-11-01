@@ -1,10 +1,8 @@
 body {
-    height: 1000px; 
+  margin: 0px; 
+  height: 1000px; 
     background-image: linear-gradient(rgb(161, 116, 190), rgb(124, 45, 226));
 }
-
-
-
 
 ul {
     list-style-type: none;
@@ -43,4 +41,9 @@ ul {
     border: 5px solid #84d8db;
     border-radius: 25px;
 
+  }
+
+  .footer {
+    font-size:18px;
+    text-align: center; 
   }

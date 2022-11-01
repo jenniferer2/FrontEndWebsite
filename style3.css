@@ -1,3 +1,9 @@
+body {
+  margin: 0px; 
+  height: 1000px;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,4 +27,8 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: rgb(162, 198, 240);
+  }
+  .footer {
+    font-size:18px;
+    text-align: center; 
   }
