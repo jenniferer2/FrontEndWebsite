@@ -14,7 +14,63 @@
             <li><a href="page2.html">About Us</a></li>
             <li><a href="page3.html">Donate</a></li>
           </ul>
-          </nav>
+        </nav>
+        <h1>Would you like to help us end homelessness?!</h1>
+        <p id = "p1">You can send a message directly to Mayor Adams here!</p>
+          
+          
+
+        <div class="container">
+          <form   action="https://formspree.io/f/xqkjwkrd"
+          method="POST">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="Borough">Borough</label>
+              </div>
+              <div class="col-75">
+                <select id="Borough" name="Borough">
+                  <option value="Bronx">Bronx</option>
+                  <option value="Queens">Queens</option>
+                  <option value="Manhattan">Manhattan</option>
+                  <option value="Brooklyn">Brooklyn</option>
+                  <option value="StatenIsland">StatenIsland</option>
+                  <option value="N/A">N/A</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+
+
+
+
           <style>
             .footer {
               position: fixed;
