@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  height: 1000px;
+  height: 2000px;
   background-color: rgb(204, 71, 197);
 
 }
@@ -20,6 +20,7 @@ h1 {
 .ps {
   text-align: center; 
   font-size: 30px;
+  padding-bottom: 30px;
 }
 
 ul {
@@ -72,4 +73,30 @@ ul {
   .footer {
     font-size:18px;
     text-align: center; 
+  }
+  .bio{
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+    
+  }
+  h2 {
+    text-align: center; 
+    font-size: 50px;
+  }
+  .mis {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+
+  }
+  .miss {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+    font-weight: bold; 
+  }
+
+  .infoList {
+    
   }
