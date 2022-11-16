@@ -1,75 +1,170 @@
-body {
-  margin: 0px;
-  height: 1000px;
-  background-color: rgb(204, 71, 197);
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0px;
+    height: 1000px;
+    background-color: rgb(202, 225, 184);
+  }
 
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    border-style: solid;
+    border-color: rgb(152, 255, 203);
+    border: 5px solid #84d8db;
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+
+  .containerr {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
-h1 {
-  padding: 20px; 
-  margin-left: 500px;
-  margin-right: 500px;
-  color: white;
-  font-size: 60px;
-  text-align: center; 
-  border-style: solid;
-  border-color: rgb(152, 255, 203); 
-  border: 5px solid #84d8db;
-  border-radius: 25px;
+
+@media screen and (min-width:768px) {
+  body {
+    margin: 0px;
+    height: 1000px;
+    background-color: rgb(202, 225, 184);
+  }
+
+  h1 {
+    padding: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(152, 255, 203);
+    border: 5px solid #84d8db;
+    border-radius: 25px;
+
+  }
 }
+
 
 .ps {
-  text-align: center; 
+  text-align: center;
   font-size: 30px;
+  padding-bottom: 30px;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(93, 140, 228);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: rgb(162, 198, 240);
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(93, 140, 228);
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.info2 {
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+
+}
+
+.in {
+  text-align: left;
+  font-size: 19px;
+  display: block;
+  color: rgb(138, 23, 23);
+  padding: 60px 53px;
+  text-decoration: none;
+  background-color: green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(162, 198, 240);
+}
 
 
-  table, th, td {
-    border: 2px solid;
-  }
-  table {
-    margin-left: 400px;
-    margin-right: 300px;
-   
-    border-collapse: collapse;
-  }
-  th {
+table,
+th,
+td {
+  border: 2px solid;
+}
+
+table {
+  margin-left: 400px;
+  margin-right: 300px;
+
+  border-collapse: collapse;
+}
+
+th {
   height: 50px;
-  }
+}
 
-  .headings {
-    
-    font-size: 40px;
-  }
+.headings {
 
-  .f1 {
-    font-size: 25px;
-  }
-  .footer {
-    font-size:18px;
-    text-align: center; 
-  }
+  font-size: 40px;
+}
+
+.f1 {
+  font-size: 25px;
+}
+
+.footer {
+  font-size: 18px;
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+  font-size: 30px;
+  margin: 50px;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.mis {
+  text-align: center;
+  font-size: 30px;
+  margin: 50px;
+
+}
+
+.miss {
+  text-align: center;
+  font-size: 30px;
+  margin: 50px;
+  font-weight: bold;
+}
+
+img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 5px solid #555;
+}
