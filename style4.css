@@ -46,59 +46,44 @@ body {
 
     img {
         
-      width:  350px;
-      height: 350px;
+      width:  400px;
+      height: 400px;
       object-fit: cover;
+      margin: 10px;
+      display: flexbox;  
       
-      display: flexbox;
-      align-self: center;
-
-      border: 5px solid #555;
-  
-  
+      border: 5px solid #555; 
   }
 
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 40px;
-    
-  }
+
   
-  /* Create two equal columns that sits next to each other */
+  
   .column {
-    flex: 50%;
-    padding: 0 40px;
+    justify-content: center;  
   }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: text-bottom;
-    margin-left: 10px;
-  }
-  
-
-
-
     body {
       background-color: lightblue;
     }
 
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 600px) {
   .column {
     flex: 50%;
     max-width: 50%;
-
+    justify-content: center;
+    
   }
+
+
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
   .column {
     flex: 100%;
     max-width: 100%;
+    
   }
+
 
 }
