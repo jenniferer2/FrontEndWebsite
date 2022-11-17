@@ -49,10 +49,10 @@
 
   #slideshow {
     list-style: none;
-    margin-left: 50px;
+    margin-left: 20px;
     position: relative;
-    width: 80%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     display: inline-block;
   }
 
@@ -89,7 +89,7 @@
 
   #pT {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     color: white;
   }
@@ -103,18 +103,17 @@
 
   #p2 {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     padding-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   #slideshow {
     list-style: none;
-    margin-left: 280px;
-    padding-top: 40px;
-    ;
+    margin-left: 390px;
+    padding-top: 60px;
     position: relative;
     width: 60%;
     height: 100%;
@@ -124,12 +123,13 @@
   .aa {
     text-align: center;
     color: purple;
-    font-size: 19px;
+    font-size: 29px;
     padding-top: 15px;
   }
 
   #line {
     margin-left: 20px;
+    font-size: 66px;
   }
 }
 
@@ -168,12 +168,14 @@ body {
 .elemnt {
   animation: xfade 16s 8s infinite;
   background-image: url(Homeless1.jpg);
+  border: 7px solid #dacee4;
 }
 
 .elemnt1 {
   animation: xfade 16s 6s infinite;
 
   background-image: url(Homeless15.jpg);
+  border: 7px solid #dacee4;
 
 }
 
@@ -181,6 +183,7 @@ body {
   animation: xfade 16s 2s infinite;
 
   background-image: url(Homeless2.jpg);
+  border: 7px solid #dacee4;
 }
 
 

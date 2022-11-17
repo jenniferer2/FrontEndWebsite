@@ -28,6 +28,7 @@
     margin-left: 25px;
     margin-right: 25px;
     text-align: center;
+    padding-bottom:30px;
   }
 
   .ps {
@@ -92,27 +93,29 @@
 
   .bio {
     font-size: 30px;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 70px;
+    margin-right: 70px;
     text-align: center;
+    padding-bottom:30px;
+    padding-top:30px;
   }
 
   .ps {
     text-align: center;
     font-size: 30px;
     padding-bottom: 30px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
 
   .containerr {
-    margin-left: 300px;
+    margin-left: 450px;
   }
 
   .mis {
     text-align: center;
-    margin: 60px;
-    font-size: 22px;
+    margin: 80px;
+    font-size: 25px;
   }
 
   #line {
@@ -251,6 +254,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 65%;
   border: 5px solid rgb(27, 65, 24);
 }
